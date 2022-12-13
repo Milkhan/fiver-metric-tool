@@ -1,0 +1,37 @@
+{
+    "name": "milkhan/fiver-metric-tool",
+    "description": "A Laravel Nova metric tool to display metrics based on a selection of models.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "homepage": "https://github.com/KABBOUCHI/nova-logs-tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustafa ilkhan",
+            "email": "mustafa.edtech@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Milkhan\\FiverMetricTool\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milkhan\\FiverMetricTool\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
