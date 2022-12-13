@@ -202,7 +202,7 @@ export default {
       },
       _card4: {
         refreshWhenActionRuns: false,
-        uriKey: "entree-capacityt",
+        uriKey: "entree-capacity",
         helpWidth: 250,
         refreshWhenFiltersChange: false,
       },
